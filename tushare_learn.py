@@ -1,7 +1,7 @@
 import tushare as ts
 import sqlite3
 
-conn = sqlite3.connect('invest_stock')
+conn = sqlite3.connect('invest_stock.db')
 ts.set_token("73d044da8e0d5f08c5fe7050c8ea28a1cb9c72d4c88fb5e9c35fba60")
 pro = ts.pro_api()
 
